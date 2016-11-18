@@ -441,7 +441,7 @@ class dq_helper_class:
             set status = '{}',
             dom_rec_result_id = {}
             where dom_rec_id = {}
-            """.format(request_status, strat_algos['dom_rec_id'], _dom_rec_result_id_str)
+            """.format(request_status, _dom_rec_result_id_str, strat_algos['dom_rec_id'])
 
         try:
 
