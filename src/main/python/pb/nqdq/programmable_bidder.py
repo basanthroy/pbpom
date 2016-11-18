@@ -66,7 +66,7 @@ def invoke_pb_for_list_data_map(configuration, org_id, dataMap, strat_bidlist, s
         __strategy_data_dict = dict(__strategy_data)
 
         logging.info("str(__strategy_id) = {} strat_algos['strategy_id'] = {}".format(str(__strategy_id), strat_algos['strategy_id']))
-        if str(__strategy_id) == strat_algos['strategy_id']:
+        if str(__strategy_id) == str(strat_algos['strategy_id']):
             logging.info("strategy_id - {} is new. Going to invoke PB".format(__strategy_id))
 
             logging.info('__strategy_id = {},__strategy_data_dict={}'
