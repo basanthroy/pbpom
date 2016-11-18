@@ -1,8 +1,8 @@
 __author__ = 'broy'
 
-#ROOT_DIR='/opt/dwradiumone/r1-dw-arte-app/test/scripts/src/main/python/pb'
-ROOT_DIR='/opt/dwradiumone/r1-dw-arte-app/test'
-SCRIPT_DIR='/opt/dwradiumone/r1-dw-arte-app/test/scripts'
+#ROOT_DIR='/opt/dwradiumone/r1-dw-pb-pom-app/test/scripts/src/main/python/pb'
+ROOT_DIR='/opt/dwradiumone/r1-dw-pb-pom-app/test'
+SCRIPT_DIR='/opt/dwradiumone/r1-dw-pb-pom-app/test/scripts'
 #ROOT_DIR='/Users/broy/temp/temp5'
 
 radiumone_api_password_stg = 'pnJjBeFbH6vLbskL'

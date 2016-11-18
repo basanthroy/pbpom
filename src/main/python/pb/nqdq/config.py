@@ -38,7 +38,7 @@ class PBArguments:
 
 class Configuration:
     # output_file = '/Users/broy/temp/output.fsv'
-    # output_file_schema = '/Users/broy/PycharmProjects/r1-dw-arte-app/application/src/main/python/com/radiumone/arte/pb/nqdq/output_type.tsv'
+    # output_file_schema = '/Users/broy/PycharmProjects/r1-dw-pb-pom-app/application/src/main/python/com/radiumone/arte/pb/nqdq/output_type.tsv'
 
     # TODO : UNCOMMENT THIS BEFORE CHECKIN
     output_file = pb_properties.ROOT_DIR + '/log/output.fsv'
