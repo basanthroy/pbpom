@@ -513,8 +513,6 @@ class dq_helper_class:
 
             logging.info("_insert_stmt = {}".format(_insert_stmt))
 
-            cursor.execute(_insert_stmt)
-
             num_rows_updated = cursor.execute(_insert_stmt)
 
             logging.info("num_rows_updated = {}".format(num_rows_updated))
