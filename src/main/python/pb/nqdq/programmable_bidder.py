@@ -59,10 +59,13 @@ def invoke_pb_for_list_data_map(configuration, org_id, dataMap, strat_bidlist, s
     __dataMapDict = dict(dataMap)
     logging.info('__dataMapDict={}'.format(str(__dataMapDict)[:300]))
     _list_data_rest_data = []
+    logging.info("invoke_pb_for_list_data_map, type = {}, dataMap={}".format(type(dataMap), dataMap))
+    logging.info("invoke_pb_for_list_data_map, type = {}, strat_bidlist={}".format(type(strat_bidlist), strat_bidlist))
+    logging.info("invoke_pb_for_list_data_map, type = {}, strat_algos={}".format(type(strat_algos), strat_algos))
     for __strategy_id, __strategy_data in __dataMapDict.iteritems():
         __strategy_data_dict = dict(__strategy_data)
 
-        if str(__strategy_id) in strat_algos.keys():
+        if str(__strategy_id) in strat_algos['strategy_id']:
             logging.info("strategy_id - {} is new. Going to invoke PB".format(__strategy_id))
 
             logging.info('__strategy_id = {},__strategy_data_dict={}'
